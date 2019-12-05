@@ -1,0 +1,115 @@
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+
+
+}
+
+.App-header {
+  height: 15vh;
+  background-color: rgb(59, 143, 189);
+  text-align: left;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+
+.Id-container{
+  background-color: lightgray;
+  height: 55vh;
+  width: 60%;
+  margin: auto;
+  margin-top: 125px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  color: black;
+  text-align: left;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.nav-bar{
+  height: 100px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+
+#button-container{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+}
+
+.buttons{
+  font-size: 75%;
+  background-color: rgb(59, 143, 189) ;
+  border:  solid 1px rgb(59, 143, 189);
+  border-radius: 15px;
+  padding: 5px 10px;
+  height: 35%;
+  width: 20%;
+}
+.order{
+  text-align: right;
+  height: 5vh;
+  font-weight: bold;
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.name{
+  font-weight: bold;
+  text-decoration: underline blue;
+  margin-right: 100px;
+  font-size: 40px;
+  display: inline-block;
+
+}
+
+ul{
+  margin: -5px;
+  list-style-type: none;
+}
+
+input {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  font-size: 20px;
+  
+
+}
+
+.movies{
+  margin-right: 100px
+}
+.submit{
+  height: 50px;
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  padding-right: 40%;
+}
